@@ -12,8 +12,8 @@ The **Smart Canteen Admin Panel** is a web-based application designed for cantee
 
 ## Tech Stack
 - **Frontend**: Vite, TypeScript, React, shadcn-ui, Tailwind CSS
-- **Backend**: (Optional) Node.js/Express or Firebase
-- **Database**: (Optional) MongoDB/Firebase Firestore
+- **Backend**: Node.js/Express or Firebase
+- **Database**: MongoDB/Firebase Firestore
 
 ## Installation
 ### 1️⃣ Clone the Repository
