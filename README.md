@@ -39,21 +39,22 @@ npm run dev
 
 ## Folder Structure
 ```
-smart-canteen-admin/
+quick-admin-board/
+├── public/
+│   └── ...
 ├── src/
 │   ├── components/
-│   │   ├── Sidebar.js
-│   │   ├── Dashboard.js
-│   │   ├── ManageMenu.js
-│   │   ├── Orders.js
+│   │   └── ...
+│   ├── pages/
+│   │   └── ...
 │   ├── App.js
 │   ├── index.js
-│   ├── styles/
-│   │   ├── index.css
-├── public/
+│   └── ...
+├── .gitignore
 ├── package.json
-├── tailwind.config.js
-└── README.md
+├── README.md
+└── ...
+
 ```
 
 ## Future Enhancements 🚀
@@ -66,15 +67,11 @@ smart-canteen-admin/
 2. Create a new branch (`feature-xyz`).
 3. Commit your changes and push to GitHub.
 4. Submit a pull request!
-
-## License
-This project is licensed under the **MIT License**.
-
 ---
 Developed with ❤️ by 
 Group 16:  
-Dolly Balwani
-Vedish Chawla
-Sahil Tanwani
+Dolly Balwani,
+Vedish Chawla,
+Sahil Tanwani,
 Yash Sukheja
 
