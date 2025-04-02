@@ -6,7 +6,7 @@ const Index = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100">
       <div className="text-center max-w-md px-4">
-        <h1 className="text-4xl font-bold mb-6">Food Service Admin</h1>
+        <h1 className="text-4xl font-bold mb-6">VES Canteen Admin</h1>
         <p className="text-xl text-gray-600 mb-8">
           Manage your menu items and track orders efficiently
         </p>
