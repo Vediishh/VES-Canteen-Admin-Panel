@@ -1,4 +1,4 @@
-# Smart Canteen Admin Panel
+# VES Canteen Admin Panel
 
 ## Overview
 The **Smart Canteen Admin Panel** is a web-based application designed for canteen staff to manage daily menus, track orders, and monitor payments. This panel provides an intuitive dashboard to simplify canteen operations.
