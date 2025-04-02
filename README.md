@@ -1,73 +1,80 @@
-# Welcome to your Lovable project
+# Smart Canteen Admin Panel
 
-## Project info
+## Overview
+The **Smart Canteen Admin Panel** is a web-based application designed for canteen staff to manage daily menus, track orders, and monitor payments. This panel provides an intuitive dashboard to simplify canteen operations.
 
-**URL**: https://lovable.dev/projects/fdb23f86-852b-49f3-9894-b9ddc5eb6689
+## Features
+- 📊 **Dashboard**: View total orders and revenue for the day.
+- 🍽️ **Manage Menu**: Add, update, or remove food items.
+- 🛒 **Orders Management**: Track and update order status.
+- 💳 **Payments & Transactions**: Monitor completed and pending payments.
+- 📈 **Analytics**: Get insights into sales trends and customer preferences.
 
-## How can I edit this code?
+## Tech Stack
+- **Frontend**: Vite, TypeScript, React, shadcn-ui, Tailwind CSS
+- **Backend**: (Optional) Node.js/Express or Firebase
+- **Database**: (Optional) MongoDB/Firebase Firestore
 
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/fdb23f86-852b-49f3-9894-b9ddc5eb6689) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
+## Installation
+### 1️⃣ Clone the Repository
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
 git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
 cd <YOUR_PROJECT_NAME>
+```
 
-# Step 3: Install the necessary dependencies.
+### 2️⃣ Install Dependencies
+```sh
 npm i
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### 3️⃣ Start the Development Server
+```sh
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Usage
+1. Open [http://localhost:3000/admin](http://localhost:3000/admin) in your browser.
+2. Navigate through the sidebar to manage orders and menus.
+3. Update order status and track daily revenue.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Folder Structure
+```
+smart-canteen-admin/
+├── src/
+│   ├── components/
+│   │   ├── Sidebar.js
+│   │   ├── Dashboard.js
+│   │   ├── ManageMenu.js
+│   │   ├── Orders.js
+│   ├── App.js
+│   ├── index.js
+│   ├── styles/
+│   │   ├── index.css
+├── public/
+├── package.json
+├── tailwind.config.js
+└── README.md
+```
 
-**Use GitHub Codespaces**
+## Future Enhancements 🚀
+- **Authentication**: Restrict access to admin users.
+- **Real-Time Order Updates**: Implement WebSockets/Firebase for live tracking.
+- **Order Notifications**: Notify canteen staff of new orders.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Contributing
+1. Fork the repository.
+2. Create a new branch (`feature-xyz`).
+3. Commit your changes and push to GitHub.
+4. Submit a pull request!
 
-## What technologies are used for this project?
+## License
+This project is licensed under the **MIT License**.
 
-This project is built with:
+---
+Developed with ❤️ by 
+Group 16:  
+Dolly Balwani
+Vedish Chawla
+Sahil Tanwani
+Yash Sukheja
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/fdb23f86-852b-49f3-9894-b9ddc5eb6689) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
